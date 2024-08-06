@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:textAlignment="center"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30sp"
+        android:text="@string/crear_cuenta"
+        android:textAlignment="center"
+        android:layout_marginTop="10sp"
+        android:textColor="@color/sena"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="102dp"
+        android:layout_marginBottom="30sp"
+        app:srcCompat="@drawable/sena" />
+
+    <EditText
+        android:id="@+id/editTextText4"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:ems="10"
+        android:layout_marginBottom="30sp"
+        android:hint="@string/Ingrese_su_nombre"
+        android:inputType="text"
+        android:rotationY="0" />
+
+    <EditText
+        android:id="@+id/editTextText4"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:ems="10"
+        android:layout_marginBottom="30sp"
+        android:hint="@string/Ingrese_su_apellido"
+        android:inputType="text"
+        android:rotationY="0" />
+
+    <EditText
+        android:id="@+id/editTextText4"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:ems="10"
+        android:layout_marginBottom="30sp"
+        android:hint="@string/Ingresar_correo"
+        android:inputType="text"
+        android:rotationY="0" />
+
+    <EditText
+        android:id="@+id/editTextText4"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:ems="10"
+        android:layout_marginBottom="30sp"
+        android:hint="@string/ingresa_celular"
+        android:inputType="text"
+        android:rotationY="0" />
+
+    <EditText
+        android:id="@+id/editTextText4"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:ems="10"
+        android:layout_marginBottom="30sp"
+        android:hint="@string/Ingresar_contraseña"
+        android:inputType="text"
+        android:rotationY="0" />
+
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/sena"
+        android:text="@string/btnlogin"
+        android:textAlignment="center"
+        android:textColor="@color/white" />
+
+
+</LinearLayout>

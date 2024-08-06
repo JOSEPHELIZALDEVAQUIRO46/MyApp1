@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MyApp1</string>
+    <string name="ingresar">INGRESAR</string>
+    <string name="Ingresar_con_google">INGRESAR CON GOOGLE</string>
+    <string name="Iniciar_sesion">INICIAR SESIÓN</string>
+    <string name="Ingresar_correo">INGRESAR CORREO</string>
+    <string name="Ingresar_contraseña">INGRESAR CONTRASEÑA</string>
+    <string name="Crear_cuenta">CREAR CUENTA</string>
+    <string name="Recuperar_contraseña">RECUPERAR CONTRASEÑA</string>
+    <string name="crear_cuenta">CREAR CUENTA</string>
+    <string name="Ingrese_su_nombre">INGRESE SU NOMBRE</string>
+    <string name="Ingrese_su_apellido">INGRESE SU APELLIDO</string>
+    <string name="ingresa_celular">INGRESAR CELULAR</string>
+    <string name="Ingrear">INGRESAR</string>
+    <string name="btnlogin">LOGIN</string>
+<string name="recuperar">RECUPERAR</string>
+</resources>
